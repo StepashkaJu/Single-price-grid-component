@@ -1,1 +1,79 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  width: 375px;
+}
+
+.btn {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+}
+
+.card-title,
+.card-subtitle {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.card-text {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: hsl(204, 43%, 93%);
+}
+
+.card-text-price {
+  font-size: 1.7rem;
+}
+
+.text-neutralGrayishBlue {
+  color: hsl(218, 22%, 67%);
+}
+
+.text-primaryYellow {
+  color: hsl(71, 73%, 54%);
+}
+
+.text-cyan {
+  color: hsl(179, 62%, 43%);
+}
+
+.text-neutralLightBlue {
+  color: #9df0f5;
+}
+
+.bg-cyan {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.bg-lightcyan {
+  background-color: #2fc6c4;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 638px;
+  }
+}/*# sourceMappingURL=style.css.map */

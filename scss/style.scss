@@ -1,1 +1,55 @@
 @import "./variables";
+
+html {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: $neutralLightGray;
+  @include baseFont;
+}
+.container {
+  width: 375px;
+}
+.btn {
+  @include boldFont;
+  background-color: $primaryYellow;
+  width: 100%;
+}
+.card-title,
+.card-subtitle {
+  @include boldFont;
+  letter-spacing: 1px;
+}
+.card-text {
+  @include baseFont;
+  font-size: 14px;
+  color: $neutralLightGray;
+}
+.card-text-price {
+  font-size: 1.7rem;
+}
+.text-neutralGrayishBlue {
+  color: $neutralGrayishBlue;
+}
+.text-primaryYellow {
+  color: $primaryYellow;
+}
+.text-cyan {
+  color: $primaryCyan;
+}
+.text-neutralLightBlue {
+  color: $neutralLightBlue;
+}
+.bg-cyan {
+  background-color: $primaryCyan;
+}
+.bg-lightcyan {
+  background-color: lighten($primaryCyan, 5%);
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 638px;
+  }
+}

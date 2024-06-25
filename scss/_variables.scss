@@ -6,6 +6,7 @@ $primaryYellow: hsl(71, 73%, 54%);
 //Neutral
 $neutralLightGray: hsl(204, 43%, 93%);
 $neutralGrayishBlue: hsl(218, 22%, 67%);
+$neutralLightBlue: #9df0f5;
 
 //Fonts
 //Size
@@ -15,8 +16,9 @@ $baseFontSize: 16px;
 @mixin baseFont {
   font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+  // font-size: 16px;
 }
 
 @mixin boldFont {
@@ -24,4 +26,5 @@ $baseFontSize: 16px;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size: 16px;
 }
