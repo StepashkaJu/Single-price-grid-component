@@ -52,4 +52,10 @@ body {
   .container {
     width: 638px;
   }
+  .rounded-bl {
+    border-bottom-left-radius: 5px;
+  }
+  .rounded-br {
+    border-bottom-right-radius: 5px;
+  }
 }
